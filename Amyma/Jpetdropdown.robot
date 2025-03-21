@@ -55,6 +55,6 @@ Valid Login
     Click Button    xpath=(//div[@id="Content"]//following::*[self::input or self::select])[18]
 
 
-    Wait Until Element Is Visible    xpath= //b[text()='Note']//parent::p
+    Wait Until Element Is Visible    xpath= //b[text()='Note']//parent::p       10s
 
     Close Browser
