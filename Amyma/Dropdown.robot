@@ -17,7 +17,7 @@ ${list_xpath}     xpath= //div[@role='listbox']//span[text()='Admin']
 ${button_xpath}   xpath=//button[@type="submit"]
 ${element3_xpath}    xpath=//div[@class="orangehrm-container"]
 *** Test Cases ***
-dropdown
+dropdown list
     Open Browser   https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  ${Browser}
 
     Maximize Browser Window
