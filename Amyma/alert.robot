@@ -20,7 +20,7 @@ handle confirmation alerts
     Sleep    1s
     Handle Alert    action=ACCEPT  # Click 'OK'
 
-Handel prompt alert
+Handle prompt alert
 
     # Ensure alert appears before handling it
     Wait Until Element Is Visible    xpath=//input[@id='promptexample']    timeout=5s
