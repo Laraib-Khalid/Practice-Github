@@ -3,7 +3,7 @@ Library     SeleniumLibrary
 
 *** Test Cases ***
 Navigation
-    Set Selenium Speed    3
+#    Set Selenium Speed    3
     Set Selenium Implicit Wait    10
     Open Browser    https://petstore.octoperf.com/actions/Catalog.action    Chrome
     Maximize Browser Window
