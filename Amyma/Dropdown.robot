@@ -48,6 +48,6 @@ dropdown
 
     Click Button    ${button_xpath}
 
-    Wait Until Element Is Visible    ${element3_xpath}
+    Wait Until Element Is Visible    ${element3_xpath}      10s
 
      Close Browser
