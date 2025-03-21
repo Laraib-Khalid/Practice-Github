@@ -6,7 +6,7 @@ ${URL}    https://petstore.octoperf.com/actions/Catalog.action
 ${Browser}    Chrome
 
 *** Test Cases ***
-Valid Login
+Valid Login list
 
     Open Browser   ${URL}  ${Browser}
 
