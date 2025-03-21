@@ -9,7 +9,7 @@ Open Test Browser
     Maximize Browser Window
 
 *** Test Cases ***
-Get Title
+Get Title of Page
     ${title}=   Get Title
     Log To Console    ${title}
     Title Should Be    Mocky: The world's easiest & fastest tool to mock your APIs
